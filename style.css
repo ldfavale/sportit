@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  border-bottom: 1px solid #c3c3c3;
+}
+.footer{
+  background-color: #1E1E26;
+  color: white;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+}
+.section div{
+  height: 100px;
+}
+
+.violet{
+  background-color: #8B48BF;
+  color: white;
+}
+
+.grisecito{
+  background-color: #FAFAFA;
+}
+
