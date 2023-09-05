@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
 body{
   margin: 0;
   padding: 0;
+  font-family: "Be Vietnam Pro";
 }
 .header{
   border-bottom: 1px solid #c3c3c3;
@@ -15,7 +18,17 @@ body{
   justify-content: center;
 }
 .section div{
-  height: 100px;
+}
+
+.banner{
+  display: flex;
+  text-align: right;
+
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #232C50;
 }
 
 .violet{
@@ -27,3 +40,33 @@ body{
   background-color: #FAFAFA;
 }
 
+.imagen-principal{
+  width: 100%;
+}
+
+.rounded{
+  border-radius: 50px;
+}
+
+.button{
+  border: none;
+  padding: 1rem 2.5rem;
+
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+  .banner{
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .imagen-principal{
+    margin-bottom: 4rem;
+  }
+} 
