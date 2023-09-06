@@ -6,7 +6,20 @@ body{
   font-family: "Be Vietnam Pro";
 }
 .header{
-  border-bottom: 1px solid #c3c3c3;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 5rem;
+}
+.switch-bg{
+  background-color: #3CDDF3;
+  color: white;
+}
+.menu{
+  width: 2.3rem;
 }
 .footer{
   background-color: #1E1E26;
@@ -17,9 +30,14 @@ body{
   display: flex;
   justify-content: center;
 }
-.section div{
+
+.p-1{
+  padding: 1rem;
 }
 
+.m-b-2{
+  margin-bottom: 2rem;
+}
 .banner{
   display: flex;
   text-align: right;
@@ -50,8 +68,8 @@ body{
 
 .button{
   border: none;
-  padding: 1rem 2.5rem;
-
+  padding: 0.7rem 2.5rem;
+  margin-top: 0.7rem;
   color: white;
   font-size: 0.9rem;
 }
@@ -69,4 +87,4 @@ body{
   .imagen-principal{
     margin-bottom: 4rem;
   }
-} 
+}
