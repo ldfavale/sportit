@@ -73,8 +73,48 @@ body{
   color: white;
   font-size: 0.9rem;
 }
+.points{
+  width: 100%;
+  padding: 10px;
+}
 
+.points div:nth-child(1){
+  display: flex;
+  justify-content: center;
 
+}
+
+.points div:nth-child(1) article:nth-child(1)::before{
+  content: "01";
+}
+.points div:nth-child(1) article:nth-child(2)::before{
+  content: "02";
+}
+.points div:nth-child(2) article:nth-child(1)::before{
+  content: "03";
+}
+
+.points article::before{
+  background-color: #8B48BF;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+  color: white;
+  position: relative;
+  left: -5rem;
+ 
+}
+
+.points article{
+  margin: 20px;
+  width: 400px;
+}
+
+.points div:nth-child(2){
+  display: flex;
+  justify-content: center;
+  
+
+}
 
 
 
@@ -86,5 +126,11 @@ body{
   }
   .imagen-principal{
     margin-bottom: 4rem;
+  }
+  .points div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
   }
 }
