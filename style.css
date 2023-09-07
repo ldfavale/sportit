@@ -15,9 +15,33 @@ body{
   width: 5rem;
 }
 .switch-bg{
-  background-color: #3CDDF3;
+  background-color: #8B48BF;
   color: white;
 }
+.switch-bg div{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+
+}
+
+.switch-bg > div > div{
+ max-width: 28rem;
+ margin-right: 4rem;
+
+}
+
+.switch-bg  h2{
+  font-size: 2rem;
+
+}
+.switch-bg  p{
+  font-size: 1rem;
+
+}
+
 .menu{
   width: 2.3rem;
 }
@@ -41,7 +65,11 @@ body{
 .banner{
   display: flex;
   text-align: right;
+  padding: 7rem;
 
+}
+.banner-info{
+  max-width: 27rem;
 }
 .banner-title{
   font-weight: bold;
@@ -60,6 +88,7 @@ body{
 
 .imagen-principal{
   width: 100%;
+  margin-right: 6rem;
 }
 
 .rounded{
@@ -76,7 +105,9 @@ body{
 .points{
   width: 100%;
   padding: 10px;
+  padding-top: 2rem;
 }
+
 
 .points div:nth-child(1){
   display: flex;
@@ -84,35 +115,41 @@ body{
 
 }
 
-.points div:nth-child(1) article:nth-child(1)::before{
-  content: "01";
-}
-.points div:nth-child(1) article:nth-child(2)::before{
-  content: "02";
-}
-.points div:nth-child(2) article:nth-child(1)::before{
-  content: "03";
-}
-
-.points article::before{
-  background-color: #8B48BF;
-  padding: 0.7rem 1.5rem;
+.pill{
   border-radius: 50px;
-  color: white;
-  position: relative;
-  left: -5rem;
- 
+  padding: 0.5rem 1.2rem;
 }
 
 .points article{
-  margin: 20px;
   width: 400px;
 }
 
+.points article:nth-child(1){
+  margin-right: 8rem;
+}
+
+.points article h5::before{
+  content: "01";
+  background-color: #8B48BF;
+  color: white;
+  width: 1rem;
+  font-size: small;
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  margin-right: 1rem;
+}
+
+.points article p{
+  position: relative;
+  left: 4.4rem;
+  font-size: medium;
+  color: #B3B2B7;
+
+}
 .points div:nth-child(2){
   display: flex;
   justify-content: center;
-  
+
 
 }
 
@@ -131,6 +168,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+  }
+  .switch-bg{
+    background-color: #3CDDF3;
+    color: white;
+  }
+
+  .switch-bg div{
+    flex-direction: column;
+
+  }
+
+  .switch-bg > div > div{
   
+    margin-right: 0;
+
+   }
+  .grisecito{
+    background-color: #FFFFFF;
+  }
+
+  .imagen-principal{
+    width: 100%;
+    margin-right: 0;
   }
 }
