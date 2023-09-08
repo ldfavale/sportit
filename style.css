@@ -65,6 +65,15 @@ body{
   list-style: none;
   margin: 0;
 }
+.links a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: #1E1E26;
+}
 
 .main-nav li{
   display: inline;
