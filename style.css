@@ -18,6 +18,10 @@ body{
   background-color: #8B48BF;
   color: white;
 }
+.switch-bg button{
+  background-color: white;
+  color: #8B48BF;
+}
 .switch-bg div{
   display:flex;
   flex-direction: row;
@@ -127,9 +131,17 @@ body{
 .points article:nth-child(1){
   margin-right: 8rem;
 }
+.points article:nth-child(1) h5::before{
+  content: "01";
+}
+.points article:nth-child(2) h5::before{
+  content: "02";
+}
+.points div:nth-child(2) h5::before{
+  content: "03";
+}
 
 .points article h5::before{
-  content: "01";
   background-color: #8B48BF;
   color: white;
   width: 1rem;
@@ -188,6 +200,11 @@ body{
   text-align: center;
 }
 
+.flex-end{
+  display: flex;
+  justify-content: end !important;
+}
+
 @media (max-width: 480px) {
   .banner{
     flex-direction: column;
@@ -205,6 +222,11 @@ body{
   }
   .switch-bg{
     background-color: #3CDDF3;
+    color: white;
+    text-align: center;
+  }
+  .switch-bg button{
+    background-color: #232C50;
     color: white;
   }
 
@@ -228,5 +250,44 @@ body{
   }
   .xs-display-none{
     display: none;
+  }
+
+  .points{
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  .points article{
+    width: 100%;
+    
+  }
+  .points article p{
+    left: 0;
+  }
+  .points article h5{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 2rem;
+  }
+  .title-container{
+    background-color: #8B48BF4D;
+    padding: 0.5rem;
+    position: relative;
+    left: 1rem;
+    width: 95%;
+    
+  }
+  .points article:nth-child(1){
+    margin-right: 0;
+  }
+  
+  .player-card-container{
+    display: flex;
+    flex: 1;
+    margin: 0 0.5rem;
+    padding: 0.7rem;
+  }
+  .player-card-text{
+    padding: 1rem;
   }
 }
