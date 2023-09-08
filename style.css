@@ -152,8 +152,41 @@ body{
 
 
 }
+.player-card h6{
+  font-size: small;
+  color: #3F4868;
+}
+.player-card p{
+  color:#B9B9C1;
+}
+.player-card img{
+  position: relative;
+  top: 2.3rem;
+}
+
+.player-card-text{
+  background-color: #FAFAFA;
+  padding: 1.5rem;
+}
+
+.player-card-container{
+  display: flex;
+  flex: 1;
+  margin: 0 2rem;
+}
 
 
+.players-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.players-section h2{
+  text-align: center;
+}
 
 @media (max-width: 480px) {
   .banner{
@@ -192,5 +225,8 @@ body{
   .imagen-principal{
     width: 100%;
     margin-right: 0;
+  }
+  .xs-display-none{
+    display: none;
   }
 }
