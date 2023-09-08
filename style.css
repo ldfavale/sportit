@@ -253,8 +253,8 @@ body{
   }
 
   .points{
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding: 2rem 0 0 2rem;
+
   }
   .points article{
     width: 100%;
@@ -271,10 +271,11 @@ body{
   }
   .title-container{
     background-color: #8B48BF4D;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
+
     position: relative;
     left: 1rem;
-    width: 95%;
+    width: 100%;
     
   }
   .points article:nth-child(1){
