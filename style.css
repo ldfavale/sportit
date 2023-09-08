@@ -28,6 +28,8 @@ body{
   justify-content: center;
   align-items: center;
   flex:1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
 }
 
@@ -84,10 +86,7 @@ body{
   height: 150px;
 }
 
-.contact p{
-font-size: small;
-color: #8C8C94;
-}
+
 
 
 
@@ -97,9 +96,7 @@ color: #8C8C94;
   width: 100%; /*  Provisorio */
 }
 
-.p-1{
-  padding: 1rem;
-}
+
 
 .m-b-2{
   margin-bottom: 2rem;
@@ -252,8 +249,19 @@ color: #8C8C94;
   margin-right: 0.5rem;
 }
 .copy-right{
+ font-size: small;
+ color: #8C8C94;
  text-align: right;
  padding:0;
+}
+.links{
+  display: flex;
+ flex-direction: row;
+ flex: 0.5;
+ justify-content: space-between;
+}
+.xl-display-none{
+  display:none;
 }
 
 @media (max-width: 480px) {
@@ -342,4 +350,63 @@ color: #8C8C94;
   .player-card-text{
     padding: 1rem;
   }
+  .footer {
+    display: flex;
+   flex-direction: column;
+   
+  }
+
+  .footer :nth-child(1) { order: 3; }
+  .footer :nth-child(2) { order: 2; }
+  .footer :nth-child(3) { order: 1; }
+  .footer :nth-child(4) { order: 4; }
+
+  .footer > div, .footer nav{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .xl-display-none{
+    display: block;
+  }
+  .links ul{
+    padding:0;
+  }
+  .contact{
+    height: 50px;
+    
+  }
+  .logo-social{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 200px;
+    justify-content: space-between;
+  }
+
+  .footer-logo{
+    width: 8rem;
+    align-self: center;
+   
+  }
+
+  .footer-social{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-social :nth-child(1) { order: 2; }
+
+
+  .links{
+   flex-direction: row-reverse;
+   justify-content: space-around;
+  }
+
+ 
+
+  .copy-right{
+    text-align: right;
+  }
+
+  
+  
 }
