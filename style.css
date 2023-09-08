@@ -60,10 +60,15 @@ body{
   align-items: start;
 }
 
-.links ul{
+.links ul, .main-nav ul{
   text-decoration: none;
   list-style: none;
   margin: 0;
+}
+
+.main-nav li{
+  display: inline;
+  margin-right: 2rem;
 }
 
 .links ul li{
