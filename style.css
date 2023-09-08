@@ -49,14 +49,52 @@ body{
 .menu{
   width: 2.3rem;
 }
-.footer{
+.footer {
   background-color: #1E1E26;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem;
+  align-items: start;
 }
+
+.links ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+
+.links ul li{
+  margin-bottom: 1rem;
+}
+
+
+.footer-logo{
+  margin-bottom: 4.5rem;
+}
+
+.footer-social img{
+  margin-right: 0.3rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.contact p{
+font-size: small;
+color: #8C8C94;
+}
+
+
 
 .section{
   display: flex;
   justify-content: center;
+  width: 100%; /*  Provisorio */
 }
 
 .p-1{
@@ -203,6 +241,19 @@ body{
 .flex-end{
   display: flex;
   justify-content: end !important;
+}
+
+
+.border-none{
+  border: none;
+}
+
+#email{
+  margin-right: 0.5rem;
+}
+.copy-right{
+ text-align: right;
+ padding:0;
 }
 
 @media (max-width: 480px) {
