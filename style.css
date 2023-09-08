@@ -183,7 +183,7 @@ body{
   font-size: small;
   border-radius: 50px;
   padding: 0.5rem 1.2rem;
-  margin-right: 1rem;
+  margin-right: 0.7rem;
 }
 
 .points article p{
@@ -295,7 +295,7 @@ body{
   }
 
   .switch-bg > div > div{
-  
+
     margin-right: 0;
 
    }
@@ -317,7 +317,7 @@ body{
   }
   .points article{
     width: 100%;
-    
+
   }
   .points article p{
     left: 0;
@@ -334,13 +334,13 @@ body{
 
     position: relative;
     left: 1rem;
-    width: 100%;
-    
+    width: 95%;
+
   }
   .points article:nth-child(1){
     margin-right: 0;
   }
-  
+
   .player-card-container{
     display: flex;
     flex: 1;
@@ -353,7 +353,7 @@ body{
   .footer {
     display: flex;
    flex-direction: column;
-   
+
   }
 
   .footer :nth-child(1) { order: 3; }
@@ -366,14 +366,14 @@ body{
     margin-bottom: 2rem;
   }
   .xl-display-none{
-    display: block;
+    display: inline-block;
   }
   .links ul{
     padding:0;
   }
   .contact{
     height: 50px;
-    
+
   }
   .logo-social{
     display: flex;
@@ -385,7 +385,7 @@ body{
   .footer-logo{
     width: 8rem;
     align-self: center;
-   
+
   }
 
   .footer-social{
@@ -401,12 +401,12 @@ body{
    justify-content: space-around;
   }
 
- 
+
 
   .copy-right{
-    text-align: right;
+    text-align: center;
   }
 
-  
-  
+
+
 }
